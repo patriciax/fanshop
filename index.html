@@ -44,7 +44,7 @@
 						</div>
 					</form>
 					<!-----------------serarch--------------------->
-					<li class="nav-item">
+					<li class="nav-item d-flex">
 						<a href="#"><img style="width: 20px" src="assets/img/shopping-cart.svg" alt="" /></a>
 					</li>
 				</div>
@@ -265,7 +265,8 @@
 					<div>
 						<p>Envios directos de </p>
 						<p>EUA a Perú</p>
-					<img src="assets/img/destination.png" alt="">
+					<img class="seg-btn" src="assets/img/destination.png" alt="">
+					<a data-toggle="modal" data-target=".modal-track" class="btn-custom" href="#">Ver seguimiento</a>
 					</div>
 				</div>
 			
@@ -523,7 +524,7 @@
 					<ul>
 						<a href=""><li>Perú - Miami</li></a>
 						<a href=""><li>Telefono: 1234567</li></a>
-						<a href=""><li>Email: fanasticosdelacompra@gmail.com</li></a>
+						<a href=""><li>Email:info@fanshop.com</li></a>
 					</ul>
 				</div>
 				<div class="col-md-4 text-center">
@@ -556,7 +557,7 @@
 	<script src="assets/js/main.js"></script>
 
 
-<!-- Modal -->
+<!-- Modalregistro -->
 <div class="modal fade login-modal" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 	  <div class="modal-content">
@@ -577,6 +578,28 @@
 	</div>
   </div>
 
+  <!-- Modal traking-->
+<div class="modal fade modal-track" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+			<div class="text-center">
+				<input class="input-style" type="text" placeholder="Ingrese su numero de pedido">
+				<a class="btn-custom" href="#">Buscar</a>
+			  </div>
+		</div>
+		<div class="modal-footer">
+		
+		</div>
+	  </div>
+	</div>
+  </div>
 
 
 
